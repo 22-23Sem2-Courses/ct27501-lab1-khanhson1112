@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bài 3</title>
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="../ex3/css/all.min.css" type="text/css" rel="stylesheet"/>
+</head>
+    <main role="main">
+        <form name="frmdangnhap" id="frmdangnhap" method="post" action="#">
+            <div class="container mt-4">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="card-group">
+                            <div class="card p-4">
+                                <div class="card-body">
+                                    <h1>Biểu mẫu đăng nhập</h1>
+                                    <p class="text-muted">Nhập thông tin Tài khoản</p>
+                                    <h3>Email:</h3>
+                                    <div class="input-group mb-3">
+                                        <input class="form-control" type="text" name="username"
+                                            placeholder="Nhập vào email">
+                                    </div>
+                                    <h3>Mật khẩu: </h3>
+                                    <div class="input-group mb-4">
+                                        <input class="form-control" type="password" name="password" placeholder="Nhập vào mật khẩu">
+                                    </div>
+                                    <div class="form-group form-check">
+                                        <input type="checkbox" class="form-check-input">
+                                        <label class="form-check-label">Ghi nhớ tôi</label> 
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <button class="btn btn-primary px-4" name="btnDangNhap">Đăng nhập</button>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <button class="btn btn-link px-0" type="button">Quên mật khẩu?</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
