@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bài 1</title>
-    <link href="vendors/bootstrap/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
-    <link href="vendors/css/all.min.css" type="text/css" rel="stylesheet"/>
+    <title>Bài 3</title>
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="../ex3/css/all.min.css" type="text/css" rel="stylesheet"/>
 </head>
     <main role="main">
         <form name="frmdangnhap" id="frmdangnhap" method="post" action="#">
@@ -17,25 +17,29 @@
                         <div class="card-group">
                             <div class="card p-4">
                                 <div class="card-body">
-                                    <h1>Đăng nhập</h1>
+                                    <h1>Biểu mẫu đăng nhập</h1>
                                     <p class="text-muted">Nhập thông tin Tài khoản</p>
                                     <div class="input-group mb-3">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text">
-                                                <i class="icon-user"></i>
+                                                  <h5>Email</h5>
                                             </span>
                                         </div>
+                                        <div class="div"></div>
                                         <input class="form-control" type="text" name="username"
-                                            placeholder="Tên đăng nhập">
+                                            placeholder="Nhập vào email">
                                     </div>
                                     <div class="input-group mb-4">
                                         <div class="input-group-prepend">
                                             <span class="input-group-text">
-                                                <i class="icon-lock"></i>
+                                                <h5>Mật khẩu</h5>
                                             </span>
                                         </div>
-                                        <input class="form-control" type="password" name="password"
-                                            placeholder="Mật khẩu">
+                                        <input class="form-control" type="password" name="password" placeholder="Nhập vào mật khẩu">
+                                    </div>
+                                    <div class="form-group form-check">
+                                        <input type="checkbox" class="form-check-input">
+                                        <label class="form-check-label">Ghi nhớ tôi</label> 
                                     </div>
                                     <div class="row">
                                         <div class="col-6">
